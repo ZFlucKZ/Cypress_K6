@@ -1,0 +1,19 @@
+{
+  "name": "Cypress_K6",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Pajjaphon Whanchid",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.4.6",
+    "cypress": "^13.6.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  }
+}
