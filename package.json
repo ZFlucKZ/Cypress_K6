@@ -8,12 +8,14 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
+    "cy:run": "cypress run",
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.4.6",
     "cypress": "^13.6.1",
     "eslint": "^8.56.0",
+    "prisma": "^5.7.1",
     "typescript": "^5.3.3"
   }
 }
