@@ -11,15 +11,17 @@
     "cy:run": "cypress run",
     "lint:fix": "eslint . --fix"
   },
+  "dependencies": {
+    "@prisma/client": "5.7.1",
+    "xlsx": "^0.18.5"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^2.4.6",
+    "@types/bcryptjs": "^2.4.6",
+    "bcryptjs": "^2.4.3",
     "cypress": "^13.6.1",
     "eslint": "^8.56.0",
     "prisma": "^5.7.1",
     "typescript": "^5.3.3"
-  },
-  "dependencies": {
-    "@prisma/client": "5.7.1",
-    "xlsx": "^0.18.5"
   }
 }
